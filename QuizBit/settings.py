@@ -37,12 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
     'drf_yasg',
     'Authentication',
     'Quiz',
+=======
+>>>>>>> 2558bb5c84c1812d923f91315e4858be6ae3fb30
 ]
 
 MIDDLEWARE = [
@@ -103,8 +106,14 @@ AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
+<<<<<<< HEAD
 
 ]
+=======
+]
+
+
+>>>>>>> 2558bb5c84c1812d923f91315e4858be6ae3fb30
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
@@ -128,6 +137,7 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+<<<<<<< HEAD
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -136,3 +146,5 @@ REST_FRAMEWORK = {
 }
 
 AUTH_USER_MODEL = 'Authentication.User'
+=======
+>>>>>>> 2558bb5c84c1812d923f91315e4858be6ae3fb30
